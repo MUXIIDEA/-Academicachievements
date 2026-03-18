@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">校园班牌</string>
+    
+    <!-- 全屏主题 -->
+    <style name="Theme.ClassBoard" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+    
+    <!-- 全屏沉浸式主题 -->
+    <style name="Theme.ClassBoard.FullScreen" parent="Theme.ClassBoard">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    
+    <!-- 原有主题 -->
+    <style name="Theme.AcademicAchievements" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
