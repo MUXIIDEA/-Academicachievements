@@ -250,7 +250,7 @@ npm run build
 
 - **项目名称**: 校园班牌系统
 - **版本**: V1.0.0
-- **开发团队**: School System
+- **开发人员**: TheBUGMUXI
 
 ## 许可证
 
